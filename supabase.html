@@ -10,6 +10,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <style>
+    @media screen and (max-width: 767px) {
+        .d-md-none {
+            display: none !important;
+        }
+    }
+  </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -37,21 +44,35 @@
             </p>
             <h3>Founders</h3>
             <p>
-                Founded in January 2020 by Ant Wilson and Paul Copplestone, they've raised $116m to date.
+                Founded in January 2020 by <a href="https://twitter.com/AntWilson">Ant Wilson</a> and <a href="https://twitter.com/kiwicopple">Paul Copplestone</a>, they've <a href="https://supabase.com/blog/supabase-series-b">raised $116m</a> to date.
             </p>
 
             <div class="mt-4">
-                <h3>Growth strategies</h3>            
+                <h3>Key Growth strategies</h3>            
                 <ul>
-                    <li>Social media - especially Twitter, especially memes</li>
-                    <li>Launch weeks</li>
-                    <li>Postgres</li>
-                    <li>Hacker News</li>
+                    <li>Positioning themselves as open source firebase - it was a turning point in the journey</li>
+                    <li>Social media - especially Twitter (90k+ followers), especially memes. They're funny.</li>
+                    <li>Launch weeks - they just did their 9th launch week with community events in multiple cities</li>
+                    <li>Regular appearances on Hacker News frontpage & multiple successful product hunt launches (6000+ upvotes across 11 launches)</li>
+                    <li>Community - Supabase is definitely an identity for a lot of developers & has spawned supabase-specific builders & content creators</li>
                 </ul>
+            </div>
+            <div class="row mt-4 d-none d-md-flex">
+                <div class="col-md-6">
+                    <img src="img/supabase_hn.png" class="img-fluid" />
+                </div>
+                <div class="col-md-6">
+                    <img src="img/supabase_twitter.png" class="img-fluid" />
+                </div>
             </div>
             <div class="mt-4">
                 <h3>Interview with Supabase founder Ant Wilson</h3>            
-                <iframe width="50%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/22086486"></iframe>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <iframe class="w-100" style="height: 180px;" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/22086486"></iframe>
+                    </div>
+                </div>
+
                 <ul>
                     <li>How the Launchpad book showed Ant that building a company is possible</li>
                     <li>Product Market Fit is always just a pivot away</li>
@@ -69,8 +90,11 @@
             </div>
             <div class="mt-4">
                 <h3>Interview with Supabase's first marketer Ramiro Nuñez Dosio</h3>            
-                <iframe width="50%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/20c8ebe7"></iframe>
-
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <iframe class="w-100" style="height: 180px;" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/20c8ebe7"></iframe>
+                    </div>
+                </div>
                 <ul>
                     <li>The Supabase marketing approach</li>
                     <li>Launch weeks at Supabase</li>
@@ -80,13 +104,21 @@
                     <li>How to distribute content</li>
                 </ul>
             </div>
-        
-            <h3>Useful Links</h3>
+            <h3>More on Supabase</h3>
             <ul>
-                <li><a href="https://supabase.com">Official Website</a></li>
+                <li><a href="https://oss-startup-podcast.launchnotes.io/announcements/episode-43-building-supabase-the-open-source-firebase-alternative">Interview with CEO Paul Copplestone talks about the positioning vs Firebase</a></li>
+                <li><a href="https://www.youtube.com/watch?v=-BG9XptyCKI&ab_channel=Supabase">Supabase founders talking about how they hire</a></li>
+                <li><a href="https://www.youtube.com/watch?v=3VDfjOZd27Y&ab_channel=Founderopedia">Q&A with Ant Wilson</a></li>
+                <li><a href="https://www.amazon.co.uk/Launch-Pad-Combinator-Exclusive-Startups/dp/0670923494">The Launchpad book - Ant's favourite book</a></li>
+                <li><a href="https://www.developermarkepear.com/blog/developer-marketing-twitter">How Supabase does Twitter marketing (very detailed breakdown)</a></li>
+                <li><a href="https://youtube.com/watch?v=_k7GqVDSFvw&ab_channel=Supabase">Supabase happy hour - Paul covers some of the history of Supabase</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oik5fY6b6GM&ab_channel=OpenSauced">Interview with Paul - mostly on Supabase's relationship with Open Source</a></li>
+            </ul>
+            <h3>Offical Links</h3>
+            <ul>
+                <li><a href="https://supabase.com">Website</a></li>
                 <li><a href="https://github.com/supabase/supabase">GitHub Repository</a></li>
                 <li><a href="https://supabase.com/docs">Documentation</a></li>
-                <!-- Add more links as needed -->
             </ul>
         </div>
     </div>
