@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DevCycle - pivoting a million dollar startup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+        var email = document.getElementById('emailInput').value;
+        if (email === '') {
+            alert('Please enter an email address.');
+            event.preventDefault(); // Prevent form submission
+        }
+    });
+</script>
+  <style>
+    @media screen and (max-width: 767px) {
+        .d-md-none {
+            display: none !important;
+        }
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="navbar-brand px-2" style="font-family: 'Chewy', Arial;" href="../index.html">SCALING DEVTOOLS</a>
+              <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+              <a class="nav-link" href="https://podcast.scalingdevtools.com/">Podcast</a>
+              <a class="nav-link" href="https://blog.scalingdevtools.com/">Blog</a>
+              <a class="nav-link" href="../tools.html">Tools</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-4">
+        <div class="row">
+        <h1>Pivoting a million dollar startup</h1>
+        <p>The story of how Jonathan Norris and the team behind Taplytics pivoted to DevCycle</p>
+        <p><i>17 January 2024</i></p>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-6">
+                <iframe class="w-100" style="height: 180px;" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/20d02990"></iframe>
+            </div>
+        </div>
+        <p>For most founders, landing Fortune 500 customers like GrubHub, Warby Parker & RBC Royal Bank is the definition of success. Imagine then, telling these customers that you're pivoting from your successful product to focus on something new. But that's exactly what <a href="https://twitter.com/jonathannorris">Jonathan</a> did - deprecating <a href="https://taplytics.com/">Taplytics</a> and launching <a href="../tools/devcyle.html">DevCycle</a>.</p>
+        <h2>Why pivot a successful business?</h2>
+        <p>Taplytics is a broad A/B testing platform for marketing teams. While DevCycle is a feature flagging tool built for developers.
+            Taplytics actually has feature flagging, but DevCycle is much more focused and plans to compete directly with incumbents like <a href="https://launchdarkly.com/">LaunchDarkly</a> by building a better developer experience (more on how later).
+            But with Taplytics they built so many features and every customer was using them in a different way that it became hard for such a small team to maintain.
+            Meanwhile, feature flagging is a much narrower problem where most customers will have similar use cases.
+            In addition, Taplytics required lots of face-to-face time selling to executives, while DevCycle is more of a bottoms-up, self-serve sales process.
+            Finally, we didn't cover it in the interview but feature flagging is a huge market. LaunchDarkly was <a href="https://forgeglobal.com/launchdarkly_ipo/#:~:text=LaunchDarkly%20was%20valued%20at%20%243,in%202021%20raised%20%24200%20million.">valued at $3billion</a> in 2021.</p>
+        </div>
+        <h2>How did DevCycle make the pivot?</h2>
+        <p><b>Have good relationships with your big customers</b> - they were able to bring many of their customers on the journey with them.There was two-way trust, and they struck me as a very transparent team.</p>
+        <p><b>Ensure continuity for your customers</b> - For feature flagging, they shared that DevCycle would be a direct (better) replacement. For Taplytics other features, they communicated clearly and shared alternatives (such as <a href="https://onesignal.com/">OneSignal</a>) while also continuing to maintain the Taplytics platform for those customers who are still in-progress of migrating ove.With this approach, Jonathan shared that they were able to bring almost all their key customers with them.</p>
+        <h2>What does developer experience mean?</h2>
+        <p>I have a healthy scepticism of founders claiming they will win with developer experience. In <a href="https://podcast.scalingdevtools.com/episodes">60+ DevTools interviews</a>, I don't think I've ever heard someone say developer experience wasn't crucial, but the reality is that very few companies create great developer experiences. So when Jonathan shared that he would beat the incumbents by building a better developer experience. I asked him what he really meant by developer experience.</p>
+        <p><b>It's not about building the flashiest and most marketable features.</b> Your focus is on building a great core product that delights more than frustrates. As an example, they spent months on a custom testing system to ensure the consistency and quality of their server-side SDK. The team even jokes about having a landing page that just says, "DevCycle, well tested."</p>
+        <p><b>It's about continually iterating on the core features.</b> Iterating on core features can be boring when compared to shipping new things. So they have a specific team focused on their core features</p>
+        <p><b>Open-source & standardise interfaces </b> - DevCycle tries to make every piece of software that their clients install open source. With CNCF, they are leading a project called <a href="https://openfeature.dev/">OpenFeature</a> - a vendor-agnostic interface for feature flagging.</p>
+        <p>Overall, this was a very brave decision to make and only time will tell if it was the right call. However, I do believe that their commitment to quality and focus is credible given the tough decision they made.</p>
+        <p><i>P.S. I'm a lazy writer, so I condensed this write-up to just Jonathan, even though the conversation also included the equally great <a href="https://twitter.com/andrewdmaclean">Andrew MacLean</a> & <a href="https://twitter.com/bvanvugt">Brad Van Vugt</a>. You can hear them in the full episode at the top.</i></p>
+        <div class="col-md-8 col-lg-6">
+          <form class="p-4 p-md-5 border rounded-3 bg-light" action="https://app.convertkit.com/forms/3195289/subscriptions" method="post" data-sv-form="3195289" data-uid="3c098cdc31" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;: &quot;redirect&quot;,&quot;redirect_url&quot;: &quot;https://podcast.bitreach.io/&quot;}}}" id="newsletterForm">
+            <div class="form-floating mb-3">
+                <input type="email" name="email_address" class="form-control" id="emailInput" placeholder="jeff@twilio.com">
+                <label for="emailInput">Email address</label>
+            </div>
+        
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Check out our DevTools newsletter</button>
+            <!-- <hr class="my-4"> -->
+            <!-- <small class="text-muted">We send a regular(ish) DevTools newsletter.</small> -->
+        </form>
+        </div>
+        <p>Something you'd change on this page? <a href="https://github.com/jackbridger/scaling-devtools">Please make a PR/issue</a></p>
+    </div>
+</body>
+</html>
