@@ -13,7 +13,7 @@
           <h3 class="text-base font-semibold leading-7 text-gray-900">Appear on the show as a guest</h3>
           <p class="mt-2 leading-7 text-gray-600">Interested in being a guest on our show? Let me know</p>
           <p class="mt-4">
-            <a href="mailto:jack@bitreach.io?subject=Appear on the Show as a Guest" class="text-sm font-semibold leading-6 text-indigo-600">Contact us <span aria-hidden="true">&rarr;</span></a>
+            <a href="mailto:jack@scalingdevtools.com?subject=Appear on the Show as a Guest" class="text-sm font-semibold leading-6 text-indigo-600">Contact us <span aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </div>
@@ -25,7 +25,7 @@
           <h3 class="text-base font-semibold leading-7 text-gray-900">Feedback</h3>
           <p class="mt-2 leading-7 text-gray-600">Any topics you'd like to hear? Things you'd like to change?</p>
           <p class="mt-4">
-            <a href="mailto:jack@bitreach.io?subject=Feedback" class="text-sm font-semibold leading-6 text-indigo-600">Send Feedback <span aria-hidden="true">&rarr;</span></a>
+            <a href="mailto:jack@scalingdevtools.com?subject=Feedback" class="text-sm font-semibold leading-6 text-indigo-600">Send Feedback <span aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@
           <h3 class="text-base font-semibold leading-7 text-gray-900">All Other Stuff</h3>
           <p class="mt-2 leading-7 text-gray-600">For all other inquiries, including sponsorship opportunities, please reach out to us.</p>
           <p class="mt-4">
-            <a href="mailto:jack@bitreach.io?subject=General Inquiry" class="text-sm font-semibold leading-6 text-indigo-600">Contact us <span aria-hidden="true">&rarr;</span></a>
+            <a href="mailto:jack@scalingdevtools.com?subject=General Inquiry" class="text-sm font-semibold leading-6 text-indigo-600">Contact us <span aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </div>
