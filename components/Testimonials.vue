@@ -20,7 +20,7 @@
             <img class="h-10 w-10 flex-none rounded-full bg-gray-50" :src="featuredTestimonial.author.imageUrl" alt="" />
             <div class="flex-auto">
               <div class="font-semibold">{{ featuredTestimonial.author.name }}</div>
-              <div class="text-gray-600">{{ `${featuredTestimonial.author.handle}` }}</div>
+              <a :href="featuredTestimonial.author.url" ><div class="text-gray-600">{{ `${featuredTestimonial.author.handle}` }}</div></a>
             </div>
             <img class="h-10 w-auto flex-none" :src="featuredTestimonial.author.logoUrl" alt="" />
           </figcaption>
@@ -35,7 +35,7 @@
                 <img class="h-10 w-10 rounded-full bg-gray-50" :src="testimonial.author.imageUrl" alt="" />
                 <div>
                   <div class="font-semibold">{{ testimonial.author.name }}</div>
-                  <div class="text-gray-600">{{ `@${testimonial.author.handle}` }}</div>
+                  <a :href="testimonial.author.url" ><div class="text-gray-600">{{ `${testimonial.author.handle}` }}</div></a>
                 </div>
               </figcaption>
             </figure>
@@ -52,6 +52,7 @@ const featuredTestimonial = {
   author: {
     name: 'Angelo Saraceno',
     handle: 'Product Manager, Railway',
+    url:'https://railway.app/',
     imageUrl:
       '/img/angelo.png',
     logoUrl: '/img/railway.svg',
@@ -65,6 +66,7 @@ const testimonials = [
         author: {
           name: "John O'Nolan",
           handle: 'Founder, Ghost',
+          url: "https://ghost.org/",
           imageUrl:
             '/img/john.jpg',
         },
@@ -77,6 +79,7 @@ const testimonials = [
         author: {
           name: 'Kilian Valkhof',
           handle: 'Founder, Polypane',
+          url:'https://polypane.app/',
           imageUrl:
             '/img/kilian.jpg',
         },
@@ -91,6 +94,7 @@ const testimonials = [
         author: {
           name: 'Zeno Rocha',
           handle: 'Co-Founder, Resend',
+          url:'https://resend.com/',
           imageUrl:
             '/img/zeno.jpg',
         },
@@ -102,6 +106,7 @@ const testimonials = [
         body: 'Just listened to the episode this morning. It was really great! A lot of great actionable advice. Keep em coming',
         author: {
           name: 'Mark Phelps',
+          url:'https://www.flipt.io/',
           handle: 'Co-Founder, Flipt',
           imageUrl:
             '/img/mark.jpg',
