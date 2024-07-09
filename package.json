@@ -1,25 +1,25 @@
 {
-  "name": "scaling-devtools",
+  "name": "nuxt-app",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.4",
-    "outline": "link:@heroicons/vue/24/outline",
-    "vue": "^3.4.29",
-    "vue-router": "4"
+    "@tailwindcss/typography": "^0.5.13",
+    "nuxt": "^3.12.2",
+    "vue": "latest",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "vite": "^5.3.1"
+    "tailwindcss": "^3.4.4"
   }
 }

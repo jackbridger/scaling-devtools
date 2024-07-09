@@ -1,17 +1,3 @@
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <template>
   <footer class="bg-white" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
@@ -55,7 +41,7 @@
             </div> -->
           </div>
         </div>
-        <div class="mt-10 xl:mt-0">
+        <!-- <div class="mt-10 xl:mt-0">
           <h3 class="text-sm font-semibold leading-6 text-gray-900">Subscribe to our newsletter</h3>
           <p class="mt-2 text-sm leading-6 text-gray-600">The latest news, articles, and resources, sent to your inbox weekly.</p>
           <form class="mt-6 sm:flex sm:max-w-md">
@@ -65,7 +51,7 @@
               <button type="submit" class="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Subscribe</button>
             </div>
           </form>
-        </div>
+        </div> -->
       </div>
       <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
         <div class="flex space-x-6 md:order-2">
@@ -97,11 +83,11 @@ const navigation = {
     { name: 'API Status', href: '#' },
   ],
   company: [
-    { name: 'About', href: '#' },
+    // { name: 'About', href: '#' },
     // { name: 'Blog', href: '#' },
     // { name: 'Jobs', href: '#' },
     // { name: 'Press', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Contact', href: '/contact' },
   ],
   legal: [
     { name: 'Claim', href: '#' },

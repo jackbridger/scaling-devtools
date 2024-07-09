@@ -1,15 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './pages/**/*.{html,js,vue}',
-    './components/**/*.{html,js,vue}',
-    './src/**/*.{html,js,vue}'
-  ],  
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
+  ],
   theme: {
+    extend: {
+
+      
+    },
     fontFamily:{
       logo: 'Chewy'
-    },
-    extend: {},
+    }
   },
   plugins: [],
 }
+

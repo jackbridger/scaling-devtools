@@ -3,7 +3,7 @@
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Scaling DevTools</span>
             <h1 class="h-8 w-auto font-logo text-2xl">Scaling DevTools</h1>
             <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> -->
@@ -66,8 +66,8 @@
           <!-- </div> -->
         </div>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-green-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Listen now</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Read the blog <span aria-hidden="true">→</span></a>
+            <a href="https://podcast.scalingdevtools.com/" class="rounded-md bg-green-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Listen now</a>
+            <a href="https://blog.scalingdevtools.com/" class="text-sm font-semibold leading-6 text-gray-900">Read our blog <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
   { name: 'Podcast', href: 'https://podcast.scalingdevtools.com/' },
   { name: 'Blog', href: 'https://blog.scalingdevtools.com/' },
-  { name: 'Tools', href: '#' },
+  { name: 'Tools', href: '/tools' },
   // { name: 'Jobs', href: '#' },
   // { name: 'Events', href: '#' },
   // { name: 'Newsletter', href: '#' },
