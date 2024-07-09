@@ -127,7 +127,7 @@ export const tools = [
     slug: 'clerk',
     industry: 'Authentication API',
     stage: '$29m funding',
-    image: '/img/clerk.svg',
+    image: '/img/clerklogo.jpeg',
     description: 'Clerk is an authentication API that focuses on providing UI out the box, particularly for JavaScript developers. Founded in June 2019 by brothers Colin Sidoti and Braden Sidoti - originally as a rails gem. Clerk has raised $29m to date.',
     strategies: [
       'DevEx - drop a component & get a signup screen. Has to be faster than free, open source alternatives.',
