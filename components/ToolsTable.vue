@@ -44,6 +44,7 @@
 const companies = [
   { name: 'Algolia', industry: 'Search API', stage: '$2.25bn valuation', strategies: 'search, comarketing, documentation, ambassadors, products, direct sales', slug: 'algolia' },
   { name: 'Clerk', industry: 'Auth', stage: '$29m funding', strategies: 'product, community, sponsorships', slug: 'clerk' },
+  { name: 'CometChat', industry: 'Chat/Voice/Video API', stage: '$5m funding', strategies: 'documentation, startup program, landing pages', slug: 'cometchat' },
   { name: 'DevCycle', industry: 'Feature flagging', stage: '$5m funding', strategies: 'developer experience, open source', slug: 'devcycle' },
   { name: 'FusionAuth', industry: 'Auth', stage: '$65m funding', strategies: 'Forums, sponsorships, open source', slug: 'fusion-auth' },
   { name: 'Polypane', industry: 'Browser', stage: 'Bootstrapped', strategies: 'email marketing, twitter, case studies', slug: 'polypane' },

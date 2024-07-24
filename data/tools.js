@@ -357,5 +357,36 @@ export const tools = [
       { name: 'Stage', value: 'Early stage' },
       { name: 'Founders', value: 'Jack Bridger, Ostap Brehin' },
     ]
-  }
+  },
+  {
+    name: 'CometChat',
+    slug: 'cometchat',
+    industry: 'Chat/Voice/Video APIs',
+    stage: '$5m funding',
+    image: 'https://www.muvi.com/wp-content/uploads/2023/02/1675944466-cometchat_logo.png',
+    description: 'CometChat is a comprehensive communication solution that empowers businesses to seamlessly integrate real-time chat, voice, and video calling features into their applications and websites.',
+    strategies: [
+      'Focus on docs experience',
+      'Developing a feature-rich UIKit',
+      'Landing pages for every industry and use case',
+      'Startup program with 50% off',
+      'Focus on email onboarding',
+      'Comparison/migration docs/pages to PMs and Devs',
+    ],
+    interviews: [
+    
+    ],
+    more: [
+
+    ],
+    links: [
+      { name: 'Website', url: 'https://www.cometchat.com/' },
+    ],
+    stats: [
+      { name: 'Type', value: 'Chat/Voice/Video APIs' },
+      { name: 'Founded', value: '2009' },
+      { name: 'Funding', value: '$5,000,000' },
+      { name: 'Location', value: 'Denver' },
+    ]
+  },
 ];
