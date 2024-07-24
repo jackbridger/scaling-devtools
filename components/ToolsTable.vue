@@ -30,7 +30,7 @@
               <td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">{{ company.stage }}</td>
               <td class="px-3 py-4 text-sm text-gray-500">{{ company.strategies }}</td>
               <td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
-                <a :href="`/tools/${company.slug}`" class="text-indigo-600 hover:text-indigo-900">View more<span class="sr-only">, {{ company.name }}</span></a>
+                <a :href="`/tools/${company.slug}`" class="text-green-600 hover:text-green-900">View more<span class="sr-only">, {{ company.name }}</span></a>
               </td>
             </tr>
           </tbody>
