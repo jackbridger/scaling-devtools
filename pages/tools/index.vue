@@ -3,14 +3,12 @@
     <ToolsTable></ToolsTable>
 </template>
 
-<script>
+<script setup>
 import ToolsTable from '/components/ToolsTable.vue'
 import NavBar from '/components/NavBar.vue'
 
-export default {
-  components: {
-    ToolsTable,
-    NavBar
-  }
-}
+useSeoMeta({
+  titleTemplate: '%s · Scaling Devtools',
+  title: 'Tools',
+})
 </script>

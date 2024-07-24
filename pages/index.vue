@@ -8,7 +8,7 @@
     <Footer />
 </template>
 
-<script>
+<script setup>
 import Hero from '/components/Hero.vue'
 import Testimonials from '/components/Testimonials.vue'
 import Testimonial from '/components/Testimonial.vue'
@@ -17,15 +17,10 @@ import Newsletter from '/components/Newsletter.vue'
 import Logos from '/components/Logos.vue'
 import Footer from '/components/Footer.vue'
 
-export default {
-  components: {
-    Hero,
+const site = useSiteConfig()
 
-    Testimonials,
-    LatestEpisode,
-    Newsletter,
-    Logos, 
-    Footer
-  }
-}
+useSeoMeta({
+    title: site.name,
+    description: site.description,
+})
 </script>
