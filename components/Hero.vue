@@ -6,7 +6,7 @@
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Scaling DevTools</span>
             <h1 class="h-8 w-auto font-logo text-2xl">Scaling DevTools</h1>
-            <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> -->
+            <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600" alt="" /> -->
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -29,7 +29,7 @@
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Scaling DevTools</span>
               <h1 class="h-8 w-auto font-mono">Scaling DevTools</h1>
-              <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> -->
+              <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600" alt="" /> -->
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
@@ -66,7 +66,7 @@
           <!-- </div> -->
         </div>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="https://podcast.scalingdevtools.com/" class="rounded-md bg-green-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Listen now</a>
+            <a href="https://podcast.scalingdevtools.com/" class="rounded-md bg-green-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Listen now</a>
             <a href="https://blog.scalingdevtools.com/" class="text-sm font-semibold leading-6 text-gray-900">Read our blog <span aria-hidden="true">→</span></a>
           </div>
         </div>

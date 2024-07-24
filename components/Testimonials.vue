@@ -8,7 +8,7 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
-        <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">What DevTools people are saying</h2>
+        <h2 class="text-lg font-semibold leading-8 tracking-tight text-green-600">What DevTools people are saying</h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Where hundreds of DevTools find new strategies</p>
       </div>
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -119,23 +119,23 @@ const testimonials = [
 </script>
 
     <!-- <Testimonial
-      logoSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      logoSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       testimonialText="'It's now my must listen list whenever a new episode comes out'"
-      imageSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      imageSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       name="Angelo"
       position="Product Manager, Railway"
     />
     <Testimonial
-      logoSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      logoSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       testimonialText="'Hey this was really good! Great topic, great questions, great answers'"
-      imageSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      imageSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       name="John O'Nolan"
       position="Founder, Ghost"
     />
     <Testimonial
-      logoSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      logoSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       testimonialText="'This was so good! A lot mirrors my experience with conference talks'"
-      imageSrc="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+      imageSrc="https://tailwindui.com/img/logos/workcation-logo-green-600.svg"
       name="Kilian Valkhof"
       position="Founder, Polypane"
     /> -->
