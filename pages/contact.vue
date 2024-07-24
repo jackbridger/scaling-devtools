@@ -1,3 +1,12 @@
+<script setup>
+import { ChatBubbleLeftRightIcon } from '@heroicons/vue/24/outline'
+
+useSeoMeta({
+  titleTemplate: '%s · Scaling Devtools',
+  title: 'Contact Us',
+})
+</script>
+
 <template>
   <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl sm:text-center">
@@ -44,7 +53,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ChatBubbleLeftRightIcon } from '@heroicons/vue/24/outline'
-</script>

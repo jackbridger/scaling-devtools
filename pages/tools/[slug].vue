@@ -23,4 +23,28 @@ const breadcrumbs = [
   { name: 'Tools', href: '/tools', current: false },
   { name: tool.name, href: `/tools/${tool.slug}`, current: true }
 ]
+
+useSeoMeta({
+  titleTemplate: '%s · Scaling Devtools',
+  title: tool.name,
+  description: tool.description,
+})
+
+useSchemaOrg([
+  defineOrganization({
+    name: tool.name,
+    description: tool.description,
+    url: `https://scalingdevtools.com/tools/${tool.slug}`,
+    logo: `https://scalingdevtools.com${tool.image}`,
+    sameAs: tool.links.map(link => link.url),
+  }),
+  defineBreadcrumb({
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: `https://scalingdevtools.com${crumb.href}`,
+    })),
+  }),
+])
 </script>
