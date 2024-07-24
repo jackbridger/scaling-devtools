@@ -48,6 +48,7 @@ const companies = [
   { name: 'FusionAuth', industry: 'Auth', stage: '$65m funding', strategies: 'Forums, sponsorships, open source', slug: 'fusion-auth' },
   { name: 'Polypane', industry: 'Browser', stage: 'Bootstrapped', strategies: 'email marketing, twitter, case studies', slug: 'polypane' },
   { name: 'Supabase', industry: 'Database, Auth, Storage', stage: '$116m funding', strategies: 'social media, launches, memes, open source', slug: 'supabase' },
+  { name: 'StreamPot', industry: 'Video Processing API', stage: 'Early stage', strategies: 'writing, reddit, dev.to', slug: 'streampot' },
 ];
 
 </script>

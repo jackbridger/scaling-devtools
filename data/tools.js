@@ -325,4 +325,37 @@ export const tools = [
       { name: 'Location', value: 'Toronto/Remote' },
     ]
   },
+  {
+    name: 'StreamPot',
+    slug: 'streampot',
+    industry: 'Video Processing API',
+    stage: 'Early stage',
+    image: '/img/streampot.svg', 
+    description: "StreamPot is a video processing API that allows you to run FFmpeg in production without the hassle. It's a game-changer for developers who need to process videos in production but don't want to deal with the complexity of running FFmpeg themselves.",
+    strategies: [
+      'Writing articles on dev.to to attract initial users',
+      'Sharing the product on Reddit to gain traction',
+      'Focusing on developer experience with an easy-to-use API',
+      'Addressing a common pain point (difficulty in using FFmpeg in production)',
+    ],
+    interviews: [], 
+    more: [
+      {
+        title: 'Origin of StreamPot',
+        points: [
+          'Idea born from founders\' frustration with running FFmpeg in production environments',
+          'Aims to simplify programmatic media file processing',
+        ],
+      }
+    ],
+    links: [
+      { name: 'StreamPot', url: 'https://streampot.io/' }, 
+    ],
+    stats: [
+      { name: 'Type', value: 'Video Processing API' },
+      { name: 'Founded', value: '2024' },
+      { name: 'Stage', value: 'Early stage' },
+      { name: 'Founders', value: 'Jack Bridger, Ostap Brehin' },
+    ]
+  }
 ];
