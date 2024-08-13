@@ -86,6 +86,7 @@ const navigation = [
   { name: 'Podcast', href: 'https://podcast.scalingdevtools.com/' },
   { name: 'Blog', href: 'https://blog.scalingdevtools.com/' },
   { name: 'Tools', href: '/tools' },
+  { name: 'Find a cofounder', href: '/cofounder' },
   // { name: 'Jobs', href: '#' },
   // { name: 'Events', href: '#' },
   // { name: 'Newsletter', href: '#' },
