@@ -2,6 +2,7 @@
 import dotenv from 'dotenv';
 import { readBody } from 'h3'; 
 import supabaseClient from '../supabase-client'
+import sendEmail from '../send-email'
 dotenv.config();
 
 async function saveCofounderToDatabase(event: any) {
@@ -24,6 +25,7 @@ async function saveCofounderToDatabase(event: any) {
             console.log(error);
             return false
         }
+        sendEmail(cofounderData.email_private, "Thank you for adding yourself to Scaling DevTools", "<p>Once we have reviewed it, it will appear on the site.</p>")
         return true
     } catch (error) {
         console.log(error);
