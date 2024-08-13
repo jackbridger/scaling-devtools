@@ -10,56 +10,56 @@
           <div class="sm:col-span-4">
             <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Name</label>
             <div class="mt-2">
-              <input type="text" v-model="name" name="name" id="name" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="John Doe" />
+              <input type="text" v-model="name" name="name" id="name" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="John Doe" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="headline" class="block text-sm font-medium leading-6 text-gray-900">Headline</label>
             <div class="mt-2">
-              <input type="text" v-model="headline" name="headline" id="headline" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="Previously @ Supabase. Want to build the future of AI infrastructure." />
+              <input type="text" v-model="headline" name="headline" id="headline" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="Previously @ Supabase. Want to build the future of AI infrastructure." />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="github" class="block text-sm font-medium leading-6 text-gray-900">GitHub</label>
             <div class="mt-2">
-              <input type="url" v-model="github" name="github" id="github" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="https://github.com/yourusername" />
+              <input type="url" v-model="github" name="github" id="github" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="https://github.com/yourusername" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="twitter" class="block text-sm font-medium leading-6 text-gray-900">Twitter (or LinkedIn)</label>
             <div class="mt-2">
-              <input type="url" v-model="twitter" name="twitter" id="twitter" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="https://twitter.com/yourusername" />
+              <input type="url" v-model="twitter" name="twitter" id="twitter" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="https://twitter.com/yourusername" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="otherlink" class="block text-sm font-medium leading-6 text-gray-900">Other link (if you want to write more, share e.g. a public notion page)</label>
             <div class="mt-2">
-              <input type="text" v-model="otherlink" name="otherlink" id="otherlink" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="https://example.com" />
+              <input type="text" v-model="otherlink" name="otherlink" id="otherlink" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="https://example.com" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="location" class="block text-sm font-medium leading-6 text-gray-900">Location</label>
             <div class="mt-2">
-              <input type="text" v-model="location" name="location" id="location" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="New York, NY" />
+              <input type="text" v-model="location" name="location" id="location" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="New York, NY" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="contact" class="block text-sm font-medium leading-6 text-gray-900">How to Contact (publicly shown)</label>
             <div class="mt-2">
-              <input type="text" v-model="contact" name="contact" id="contact" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="your.email@example.com" />
+              <input type="text" v-model="contact" name="contact" id="contact" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="your.email@example.com" />
             </div>
           </div>
 
           <div class="sm:col-span-4">
             <label for="email_private" class="block text-sm font-medium leading-6 text-gray-900">Email (just for us. Can be same as publicly shown)</label>
             <div class="mt-2">
-              <input type="text" v-model="email_private" name="email_private" id="email_private" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="your.email@example.com" />
+              <input type="text" v-model="email_private" name="email_private" id="email_private" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6 px-2" placeholder="your.email@example.com" />
             </div>
           </div>
         </div>

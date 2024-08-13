@@ -87,6 +87,7 @@ const navigation = {
     // { name: 'Blog', href: '#' },
     // { name: 'Jobs', href: '#' },
     // { name: 'Press', href: '#' },
+    { name: 'Add tool', href: '/add-tool' },
     { name: 'Contact', href: '/contact' },
   ],
   legal: [
