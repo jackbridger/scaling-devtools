@@ -52,6 +52,7 @@ const navigation = [
   { name: 'Blog', href: 'https://blog.scalingdevtools.com/' },
   { name: 'Tools', href: '/tools' },
   { name: 'Find a cofounder', href: '/cofounder' },
+  { name: 'Events', href: '/events' },
 ]
 
 const mobileMenuOpen = ref(false)
