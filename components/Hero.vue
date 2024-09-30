@@ -4,8 +4,8 @@
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
-            <span class="sr-only">Scaling DevTools</span>
-            <h1 class="h-8 w-auto font-logo text-2xl">Scaling DevTools</h1>
+            <span class="sr-only">SCALING DEVTOOLS</span>
+            <h1 class="h-8 w-auto font-logo text-2xl">SCALING DEVTOOLS</h1>
             <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600" alt="" /> -->
           </a>
         </div>
