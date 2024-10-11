@@ -60,7 +60,7 @@
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
         </div>
-        <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">&copy; Scaling DevTools. All rights reserved.</p>
+        <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">Sponsored by <a href="https://workos.com"><img class="object-contain" src="/img/workos.svg" alt="WorkOS" width="158" height="48" /></a>.</p>
       </div>
     </div>
   </footer>

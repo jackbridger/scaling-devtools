@@ -14,7 +14,6 @@ import Testimonial from '/components/Testimonial.vue'
 import LatestEpisode from '/components/LatestEpisode.vue'
 import Logos from '/components/Logos.vue'
 import Footer from '/components/Footer.vue'
-
 const site = useSiteConfig()
 
 useSeoMeta({
