@@ -389,4 +389,70 @@ export const tools = [
       { name: 'Location', value: 'Denver' },
     ]
   },
+  {
+    name: 'WorkOS',
+    slug: 'workos',
+    industry: 'Auth, Enterprise Readiness',
+    stage: '$80m funding',
+    image: '/img/workos.svg',
+    description: 'WorkOS helps you start selling to enterprise customers with just a few lines of code. Implement features like single sign-on in minutes instead of months.',
+    strategies: [
+      'Sponsoring media such as us - Scaling Devtools',
+      'Attending conferences - the founder Michael scopes out conferences and sponsors the good ones',
+      'Focusing heavily on helping startups cross the enterprise chasm'
+    ],
+    interviews: [
+      {
+        title: 'Interview with WorkOS founder Michael Grinich',
+        points: [
+          "Engineering leaders focus on business goals, not just technology.",
+          "Conferences can be a great way to connect with potential customers.",
+          "Building relationships at events can lead to long-term success.",
+          "Frameworks can be constraining; focus on user empathy instead.",
+          "Understanding user needs is crucial for product development.",
+          "Articulating the 'why' can enhance customer connection.",
+          "Maintaining focus on your mission is key to success.",
+          "Finding a deeper mission can drive your startup forward.",
+          "The journey of building a startup is often unclear at the beginning.",
+        ],
+        src: 'https://share.transistor.fm/e/39694558',
+        quote: {
+          text: "If a conversation scares you, it's probably necessary.",
+          author: 'Michael Grinich',
+        }
+      },
+      {
+        title: 'Getting Your first Enterprise Customers - Michael Grinich from WorkOS',
+        points: [
+          "The importance of falling in love with the problem space, not just the solution",
+          "The concept of the 'enterprise chasm' - the gap between product-market fit and enterprise readiness",
+          "The value of understanding and empathizing with customers' needs",
+          "The challenges and complexities of selling to enterprise customers",
+          "The importance of founders doing initial sales themselves before hiring dedicated salespeople",
+          "The long-term nature of building developer tools and the patience required",
+          "The benefits of building for developers as a discerning but loyal customer base",
+          "The importance of choosing customers you enjoy working with",
+          "The inherent difficulty of startups and the mindset needed to embrace the struggle",
+          "The value of persistence and not giving up in the face of challenges",
+        ],
+        src: 'https://share.transistor.fm/e/39694558',
+        quote: {
+          text: "If a conversation scares you, it's probably necessary.",
+          author: 'Michael Grinich',
+        }
+      }
+    ],
+    more: [
+
+    ],
+    links: [
+      { name: 'Website', url: 'https://www.workos.com/' },
+    ],
+    stats: [
+      { name: 'Type', value: 'Auth, Enterprise Readiness' },
+      { name: 'Founded', value: '2019' },
+      { name: 'Funding', value: '$80,000,000' },
+      { name: 'Location', value: 'Remote' },
+    ]
+  },
 ];

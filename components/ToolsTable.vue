@@ -50,6 +50,7 @@ const companies = [
   { name: 'Polypane', industry: 'Browser', stage: 'Bootstrapped', strategies: 'email marketing, twitter, case studies', slug: 'polypane' },
   { name: 'Supabase', industry: 'Database, Auth, Storage', stage: '$116m funding', strategies: 'social media, launches, memes, open source', slug: 'supabase' },
   { name: 'StreamPot', industry: 'Video Processing API', stage: 'Early stage', strategies: 'writing, reddit, dev.to', slug: 'streampot' },
+  { name: 'WorkOS', industry: 'Auth, Enterprise Readiness', stage: '$80mn funding', strategies: 'sponsorships, conferences', slug: 'workos' },
 ];
 
 </script>
