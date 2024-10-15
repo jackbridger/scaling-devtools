@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <Breadcrumbs :breadcrumbs="breadcrumbs" />
     <Header :tool="tool" v-if="tool" />
     <Stats :stats="tool.stats" v-if="tool" />

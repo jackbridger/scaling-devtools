@@ -1,5 +1,4 @@
 <template>
-    <NavBar></NavBar>
     <ToolsTable></ToolsTable>
 </template>
 

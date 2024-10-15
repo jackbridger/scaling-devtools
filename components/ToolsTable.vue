@@ -57,6 +57,6 @@ const companies = [
 
 <style scoped>
 .tools-table {
-  /* You can add styles specific to the ToolsTable component here */
+  padding-top: 2rem;
 }
 </style>
