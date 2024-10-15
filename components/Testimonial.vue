@@ -10,15 +10,15 @@
             <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
           </svg>
           <blockquote class="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>I just finished the PostHog one. So good.</p>
+            <p>The best DevTool podcast in the world.</p>
           </blockquote>
         </div>
         <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
-          <img class="rounded-xl bg-green-50 lg:rounded-3xl" src="/img/zeno.jpg" alt="" />
+          <img class="rounded-xl bg-green-50 lg:rounded-3xl" src="/img/sahand2.jpeg" alt="" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-gray-900">Zeno Rocha</div>
-          <div class="mt-1 text-gray-500">CEO of Resend</div>
+          <div class="font-semibold text-gray-900">Sahand Seifi</div>
+          <div class="mt-1 text-gray-500">Founder, <a href="https://www.notificationapi.com/" target="_blank">NotificationAPI.com</a></div>
         </figcaption>
       </figure>
     </div>
